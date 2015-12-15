@@ -1,6 +1,9 @@
 name: martini-gorm-snapcraft
 version: 1.0
 vendor: Rob1507 <robert1999.g@gmail.com>
+binaries:
+  gorm-main:
+    exec: bin/martini-gorm.git
 summary: Simple app from GitHub to test snapcraft
 description: Testing snapcraft usage on this simple app in go language
 icon: icon.png
